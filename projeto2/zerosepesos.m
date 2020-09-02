@@ -3,7 +3,7 @@ function [T, W, conv] = zerosepesos(n)
 %  Info: informa ̧c~ao sobre converg^encia do m ́etodo de Newton-Raphson
 %         Info = 0: todos os zeros convergiram e
 % Info = k: n ́umero de vezes que os zeros n~ao convergiram.
-format short
+format long
 T = zeros(n,1);
 W = T;
 conv = 0;
